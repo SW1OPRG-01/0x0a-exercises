@@ -8,9 +8,12 @@
       "args": [
         "-g",
         "-std=c++11",
-        "src/*.cpp",
+        "src/batch.cpp",
+        "src/customer.cpp",
+        "src/led.cpp",
+        "src/main.cpp",
         "-o",
-        "${workspaceFolder}/build/${workspaceFolderBasename}.out"
+        "${workspaceFolder}/build/program"
       ],
       "group": "build",
       "problemMatcher": [
